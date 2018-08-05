@@ -13,7 +13,7 @@ const Map = compose(
     defaultCenter={{lat: -22.941648,lng: -43.209736}}
   >
 
-    
+
 
   </GoogleMap>
 );

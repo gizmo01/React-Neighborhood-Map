@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import * as locations from './locations.json';
+import Map from './Map'
+
 
 
 class App extends Component {
@@ -19,9 +21,9 @@ class App extends Component {
             <section tabIndex='0'>
 
               <Map
-                venueName={showingVenueName}
+                // venueName={showingVenueName}
                 onToggleOpen={this.onToggleOpen}
-                venue={showingVenueName}
+                // venue={showingVenueName}
                 getInfo={this.getInfo}
                 infoContent={this.state.infoContent}
                 placeToShow={this.state.placeToShow}
